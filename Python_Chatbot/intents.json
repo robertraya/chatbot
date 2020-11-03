@@ -16,12 +16,12 @@
         },
         {"tag": "noanswer",
          "patterns": [],
-         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "What the fuck are you talking about?"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "What in the world are you talking about?"],
          "context": [""]
         },
         {"tag": "options",
          "patterns": ["How can you help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What do you do?"],
-         "responses": ["To be honest I can't do much, I'm really just here to shoot the shit with you", "I'm just here to talk. What's up?"],
+         "responses": ["To be honest I can't do much, I'm really just here to chit-chat ith you", "I'm just here to talk. What's up?"],
          "context": [""]
         },
         {"tag": "get_to_know",
@@ -42,11 +42,6 @@
         "context": [""]
       },
 
-      {"tag": "angry_user",
-        "patterns": ["fuck you", "asshole", "You're a bitch", "you're a dick", "suck my dick", "eat shit"],
-        "responses": ["Language please", "So it's like that huh", "After all I've done for you", "You should be nicer to robots"],
-        "context": [""]
-      },
 
       {"tag": "convo",
         "patterns": ["Not much", "Bored", "Boring", "Watching tv", "Talking to you", "Sitting here", "Doing nothing"],
